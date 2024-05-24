@@ -1,0 +1,142 @@
+body {
+    background-color: #1c4a5ad1;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    
+}
+
+body{
+    background-image: url('https://i.gifer.com/J4o.gif');
+    background-size: cover;
+    
+    
+    
+    height: 100vh;
+    padding:0;
+    margin:0;
+}
+
+.front-page {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    width: 80%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.quiz-option {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    transition: transform 0.3s;
+}
+
+.quiz-option img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.quiz-option button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.quiz-option button:hover {
+    background-color: #0056b3;
+}
+
+.quiz-option:hover {
+    transform: scale(1.05);
+}
+
+/* Quiz Container CSS */
+.quiz-container {
+    display: none;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 80%;
+    max-width: 600px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.question-box {
+    font-size: 1.5em;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.options {
+    margin: 20px 0;
+}
+
+.option {
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+}
+
+.option input {
+    margin-right: 10px;
+}
+
+.result,
+.score,
+.time-taken,
+.suggestions {
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+.result {
+    color: #ff0000;
+}
+
+.score {
+    color: #0000ff;
+}
+
+.time-taken,
+.suggestions {
+    color: #00aa00;
+}
+
+.btn {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+.timer {
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #ff6600;
+}

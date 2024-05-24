@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+    
+    <div class="front-page">
+        <div class="quiz-option">
+            <a href="index1.html">
+                <img src="Modren-Tech.jpg"
+                    alt="Quiz 1" />
+                <button>Technology Quiz</button>
+            </a>
+        </div>
+        <div class="quiz-option">
+            <a href="index2.html">
+                <img src="general-knowledge.jpg"
+                    alt="Quiz 2" />
+                <button>GK Quiz</button>
+            </a>
+        </div>
+        <div class="quiz-option">
+            <a href="index3.html">
+                <img src="maths.jpg"
+                    alt="Quiz 3" />
+                <button>Maths Quiz</button>
+            </a>
+        </div>
+        <div class="quiz-option">
+            <a href="index4.html">
+                <img src="Logical Reasoning.jpg"
+                    alt="Quiz 4" />
+                <button>Reasoning Quiz</button>
+            </a>
+        </div>
+    </div>
+    |
+    <div class="quiz-container" style="display: none">
+        <div id="quesBox" class="question-box"></div>
+        <div id="options" class="options">
+            <label class="option"><input type="radio" name="option" value="a" /> <span></span></label><br />
+            <label class="option"><input type="radio" name="option" value="b" /> <span></span></label><br />
+            <label class="option"><input type="radio" name="option" value="c" /> <span></span></label><br />
+            <label class="option"><input type="radio" name="option" value="d" /> <span></span></label><br />
+        </div>
+        <div id="answer-result" class="result"></div>
+        <div id="score" class="score"></div>
+        <div id="time-taken" class="time-taken"></div>
+        <div id="suggestions" class="suggestions"></div>
+        <button class="btn">Submit</button>
+    </div>
+</body>
+
+</html>
